@@ -1,0 +1,24 @@
+/* tag */
+
+.tag{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    isolation: isolate;
+
+
+    /* purple */
+    width: fit-content;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #9C61A0;
+    color: #9C61A0;
+    border-radius: 40px;
+
+}

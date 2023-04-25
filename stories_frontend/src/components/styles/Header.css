@@ -1,0 +1,32 @@
+#header {
+    background: #9C61A0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw;
+    position: fixed;
+    top: 0;
+    width: 90vw;
+    height: 4vh;   
+    color: #FFFFFF;
+    z-index:2000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+#nav-menu{
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    justify-content: space-between;
+}
+
+.header-name{
+    font-weight: 600;
+}
+
+.header-nav:hover{
+    cursor: pointer;
+    font-weight: 600;
+    transition-duration: 300ms;
+}
