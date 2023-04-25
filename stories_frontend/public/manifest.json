@@ -1,13 +1,6 @@
 {
   "short_name": "Stories",
   "name": "Stories at FindFood.Guide",
-  "icons": [
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "2878x1168"
-    }
-  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

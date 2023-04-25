@@ -15,7 +15,7 @@ const HomePage = () => {
   }
 
   const navigateRead = () => {
-    let randomId = Math.floor(Math.random() * (stories.length+ 1))
+    let randomId = Math.floor(Math.random() * (stories.length)) + 1;
     let path = "/story/" + randomId; 
     navigate(path);
   }
