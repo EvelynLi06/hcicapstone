@@ -65,7 +65,10 @@ const StorySubmissionPage = () => {
       <div className="texteditor">
         <div className="prompt">
           <div className="prompt-text">{prompts[promptIdx]}</div>
-          <button  className='button-9' onClick={handlePromptChange}>Refresh Prompt</button>
+          <button  className='button-9-green-inv' onClick={handlePromptChange}>
+            Refresh Prompt
+            <img className='refresh-icon' src="refresh-icon.svg" alt="refresh icon" />
+          </button>
         </div>
         <textarea
           defaultValue="tell us your story ..."
@@ -75,7 +78,7 @@ const StorySubmissionPage = () => {
           className='textinput'
         />
         <div className="submitbtn" >
-          <button  className='button-9' onClick={handleSubmit}>Add My Story</button>
+          <button  className='button-9-green' onClick={handleSubmit}>Add My Story</button>
         </div>
       </div>
     </div>

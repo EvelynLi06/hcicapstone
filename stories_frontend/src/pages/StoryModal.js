@@ -29,7 +29,7 @@ const StoryModal = ({storyId}) => {
         <div>{story?.body}</div>
       </div>
       <div className="btns">
-        <button className='button-9'>Where can I get offer?</button>
+        <button className='button-9'>Where can I get food?</button>
         <button className='button-9'>How can I offer help?</button>
       </div>
     </div>

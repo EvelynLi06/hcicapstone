@@ -65,10 +65,10 @@
     width: 70%;
 }
 
-.button-9 {
+.button-9-green {
     appearance: button;
     backface-visibility: hidden;
-    background-color: #9C61A0;
+    background-color: #709D2F;
     border-radius: 6px;
     border-width: 0;
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
@@ -92,16 +92,16 @@
     touch-action: manipulation;
     width: max-content;
 }
-  
-.button-9 {
+
+
+.button-9-green-inv {
     appearance: button;
     backface-visibility: hidden;
-    background-color: #9C61A0;
+    background-color: white;
     border-radius: 6px;
-    border-width: 0;
+    border: 1px solid #709D2F;
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
     box-sizing: border-box;
-    color: #fff;
     cursor: pointer;
     font-size: 100%;
     height: 44px;
@@ -119,6 +119,15 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     width: max-content;
+    color:#709D2F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  justify-content: space-between;
+}
+
+.refresh-icon{
+    padding: 0 10px;
 }
 
 .button-9:disabled {
@@ -134,7 +143,7 @@ textarea {
   height: 40vh;
   padding: 15px;
   box-sizing: border-box;
-  border: 2px solid #9C61A0;
+  border: 2px solid #709D2F;
   border-radius: 5px;
   background-color: #f8f8f8;
   font-size: 16px;
